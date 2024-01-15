@@ -1,7 +1,8 @@
-import Image from 'next/image'
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <main ></main>
-  )
+    <div>
+      <h1>Home Page</h1>
+      <p>Some content</p>
+    </div>
+  );
 }
